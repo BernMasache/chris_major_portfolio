@@ -50,7 +50,7 @@ function ServicesPage(props) {
           <div className="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8">
 
             <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-              {services.slice(0,4).map((service, key) => (
+              {services.map((service, key) => (
                 <div key={key}>
                   <div className="relative">
                     <div className="relative h-72 w-full overflow-hidden rounded-lg">

@@ -145,7 +145,7 @@ export default function Home() {
     <main>
 
 
-      <div className="bg-white snap-y snap-mandatory h-screen w-screen overflow-scroll">
+      <div className="bg-white ">
         {/* Header */}
         <header className="absolute bg-cyan-700 inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -232,45 +232,42 @@ export default function Home() {
 
         <main>
           {/* Home section */}
-          <div className='snap-start w-screen h-screen'>
+          <div className=''>
             <HomePage />
           </div>
 
           {/* About section */}
-          <div className='snap-start w-screen h-screen'>
+          <div className=''>
             <AboutPage />
           </div>
 
           {/* Services section */}
-          <div className='snap-start w-screen h-screen'>
-            <ServicesPage />
+          <div className=''>
+            {/* <ServicesPage /> */}
           </div>
-          {/* Services section */}
-          <div className='snap-start w-screen h-screen'>
-            <ServicesTwoPage />
-          </div>
+          
 
           {/* my product section */}
-          <div className='snap-start w-screen h-screen'>
+          <div className=''>
             <MyProducts />
           </div>
             {/* print designs section */}
-            <div className='snap-start w-screen h-screen'>
+            <div className=''>
             <PrintDesings />
           </div>
 
            {/* print designs section */}
-           <div className='snap-start w-screen h-screen'>
+           <div className=''>
             <WebUiMobileDesign />
           </div>
           {/* print designs section */}
-          <div className='snap-start w-screen h-screen'>
+          <div className=''>
             <SocialMediaAds />
           </div>
         </main>
 
         {/* Footer */}
-        <div className='snap-start w-screen h-screen'>
+        <div className=''>
 
           <footer className="mt-32 bg-gray-900 sm:mt-56" aria-labelledby="footer-heading">
             <h2 id="footer-heading" className="sr-only">
