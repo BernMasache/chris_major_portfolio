@@ -19,7 +19,7 @@ const products = [
   // More products...
 ]
 
-function ServicesPage(props) {
+function ServicesTwoPage(props) {
   return (
     <div >
       <div className="relative h-screen isolate mt-32 bg-white px-6 sm:mt-56 lg:px-8">
@@ -40,7 +40,7 @@ function ServicesPage(props) {
           <div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
             {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Pricing</h2> */}
             <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Services
+             More Services
             </p>
           </div>
           <p className="mx-auto mt-6 max-w-7xl text-center text-4xl leading-8 text-gray-600">
@@ -50,7 +50,7 @@ function ServicesPage(props) {
           <div className="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8">
 
             <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-              {services.slice(0,4).map((service, key) => (
+              {services.slice(4,8).map((service, key) => (
                 <div key={key}>
                   <div className="relative">
                     <div className="relative h-72 w-full overflow-hidden rounded-lg">
@@ -74,6 +74,7 @@ function ServicesPage(props) {
               ))}
             </div>
           </div>
+
           <div className="mx-auto max-w-2xl text-center text-2xl px-4 py-4 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita maiores nesciunt animi
              cumque odio pariatur voluptates quod, reprehenderit eaque labore,
@@ -84,4 +85,4 @@ function ServicesPage(props) {
   );
 }
 
-export default ServicesPage;
+export default ServicesTwoPage;

@@ -17,7 +17,7 @@ function AboutPage(props) {
                 </div>
                 <div className="mx-auto p-24 flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
                     <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
-                        <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
+                        <div className="relative aspect-[1/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                             <img
                                 className="absolute mt-8 inset-0 h-full w-full rounded-2xl bg-gray-800 object-fit shadow-2xl"
                                 src="./images/chris.jpg"
@@ -48,7 +48,7 @@ function AboutPage(props) {
                             </blockquote>
                             <figcaption className="mt-8 text-base">
                                 <div className="font-semibold text-white text-2xl">Chrispin Meja</div>
-                                <div className="sr-only mt-1 text-gray-400">CEO of Tuple</div>
+                                <div className="sr-only mt-1 text-gray-400">CEO of Esteemart</div>
                                 <div className="mt-1 text-gray-400">
                                     <p className=''>
                                         Graphic designer, Technical Assistant,
@@ -60,7 +60,7 @@ function AboutPage(props) {
                         </figure>
                     </div>
                 </div>
-                <div className="p-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+                <div className="p-8 md:p-32 lg:p-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
 
                     <p className='text-white text-xl'>
                         I have experience in client based work and solo projects. I

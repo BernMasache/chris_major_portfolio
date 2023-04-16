@@ -15,6 +15,11 @@ import {
 import AboutPage from '../components/widgets/about'
 import ServicesPage from '../components/widgets/services'
 import HomePage from '../components/widgets/home'
+import ServicesTwoPage from '../components/widgets/servicesTwo'
+import MyProducts from '../components/widgets/services/products'
+import PrintDesings from '../components/widgets/services/printDesigns'
+import WebUiMobileDesign from '../components/widgets/services/webUiMobileDesign'
+import SocialMediaAds from '../components/widgets/services/socialMediaAds'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -228,7 +233,7 @@ export default function Home() {
         <main>
           {/* Home section */}
           <div className='snap-start w-screen h-screen'>
-           <HomePage/>
+            <HomePage />
           </div>
 
           {/* About section */}
@@ -240,7 +245,28 @@ export default function Home() {
           <div className='snap-start w-screen h-screen'>
             <ServicesPage />
           </div>
+          {/* Services section */}
+          <div className='snap-start w-screen h-screen'>
+            <ServicesTwoPage />
+          </div>
 
+          {/* my product section */}
+          <div className='snap-start w-screen h-screen'>
+            <MyProducts />
+          </div>
+            {/* print designs section */}
+            <div className='snap-start w-screen h-screen'>
+            <PrintDesings />
+          </div>
+
+           {/* print designs section */}
+           <div className='snap-start w-screen h-screen'>
+            <WebUiMobileDesign />
+          </div>
+          {/* print designs section */}
+          <div className='snap-start w-screen h-screen'>
+            <SocialMediaAds />
+          </div>
         </main>
 
         {/* Footer */}
